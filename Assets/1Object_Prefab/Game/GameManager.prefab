@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1826190229066170209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7585976647955675654}
+  - component: {fileID: 7462430472019939930}
+  - component: {fileID: 6462920074772991952}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7585976647955675654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826190229066170209}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7462430472019939930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826190229066170209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b2357b6a5f7709439178d3c7678134e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuCam: {fileID: 0}
+  gameCam: {fileID: 0}
+  Music: {fileID: 0}
+  player: {fileID: 0}
+  stage: 0
+  playTime: 0
+  dunSpawn: {x: 0, y: 0, z: 0}
+  isStart: 0
+  isloading: 0
+  menuPanel: {fileID: 0}
+  gamePanel: {fileID: 0}
+  gameoverPanel: {fileID: 0}
+  optionPanel: {fileID: 0}
+  pausePanel: {fileID: 0}
+  PortalKey: {fileID: 0}
+  GrabKey: {fileID: 0}
+  GrabKey_i: {fileID: 0}
+  menuBack: {fileID: 0}
+  pauseBack: {fileID: 0}
+  highScoreTxt: {fileID: 0}
+  scoreTxt: {fileID: 0}
+  stageTxt: {fileID: 0}
+  playTimeTxt: {fileID: 0}
+  playerHealthTxt: {fileID: 0}
+  playerAmmo: {fileID: 0}
+  equipAmmo: {fileID: 0}
+  playerCoin: {fileID: 0}
+  playerGrenade: {fileID: 0}
+  curScoreTxt: {fileID: 0}
+  bestTxt: {fileID: 0}
+  GVHighScoreTxt: {fileID: 0}
+  GV_Mob: {fileID: 0}
+  GV_Coin: {fileID: 0}
+  CoinGet: {fileID: 0}
+  Item:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Weapon:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  LoadingIM: {fileID: 0}
+--- !u!114 &6462920074772991952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826190229066170209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a7a83dc7f8870340aab2b0185f5d108, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

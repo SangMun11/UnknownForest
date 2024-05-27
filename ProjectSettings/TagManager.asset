@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Can_Destroed_Wall
+  - Cant_Be_Passed_Wall
+  - Item
+  - Weapon
+  - Close_Weapon
+  - Bullet
+  - Can_Grab
+  - Enemy
+  - EnemyBullet
+  - WorldWall
+  - Bomb
+  - FxTemporaire
+  - EnemyBullet_Renforcement
+  - Trap_dam
+  - Portal
+  - Shield
+  - Crate
+  - DungeonCreator
+  - Music
+  - TreeBody
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Map
+  - Water
+  - UI
+  - Player
+  - Item
+  - Player_bullet
+  - BulletCase
+  - Wall
+  - Enemy
+  - EnemyDead
+  - Can_Collision_Possible
+  - Can_Grab
+  - Enemy_bullet
+  - Enemy_Body
+  - Effect
+  - Trap
+  - PlayerInvincibility
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
